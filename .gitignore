@@ -1,0 +1,32 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.pfx
+key.properties
+google-services.json
+GoogleService-Info.plist
+*.bak
+# build output and dependencies
+node_modules/
+.next/
+.turbo/
+dist/
+build/
+bin/
+obj/
+.vs/
+.dart_tool/
+.gradle/
+*.user
+*.war
+*.apk
+*.aab
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
